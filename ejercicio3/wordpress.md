@@ -48,8 +48,8 @@ grant all on wordpress.* to 'wordpressuser'@'localhost' identified by 'wordpress
 
 - Una vez finalizada la instalación, iniciamos sesión:
 
-#captura11
+![image](/imagenes/11.png)
 
 - Y ya tendríamos todo listo:
 
-![image](/imagenes/11.png)
+![image](/imagenes/12.png)
