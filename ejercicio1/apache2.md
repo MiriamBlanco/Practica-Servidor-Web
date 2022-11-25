@@ -6,7 +6,7 @@ sudo apt install apache2
 
 - Nos movemos a la carpeta /var/www/ y creamos centro.intranet y departamentos.centro.intranet
 
-#CAPTURA
+[!imagen](/imagenes/1.png)
 
 - Asignamos la propiedad del directorio con la variable de entorno $USER, que hará referencia a su usuario de sistema actual:
 
