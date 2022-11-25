@@ -1,6 +1,7 @@
 # Practica-Servidor-Web
 
 Vamos a instalar un servidor web interno para un instituto. Se Pide:
+
 1.- Instalación del servidor web apache. Usaremos dos dominios mediante el archivo hosts: centro.intranet y departamentos.centro.intranet. El primero servirá el contenido mediante wordpress y el segundo una aplicación en python. [ver aquí](/ejercicio1/apache2.md)
 
 2.- Activar los módulos necesarios para ejecutar php y acceder a mysql
