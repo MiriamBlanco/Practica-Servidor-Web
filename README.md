@@ -6,7 +6,7 @@ Vamos a instalar un servidor web interno para un instituto. Se Pide:
 
 2.- Activar los módulos necesarios para ejecutar php y acceder a mysql. [ver aquí](ejercicio2/php_y_msql.md)
 
-3.- Instala y configura wordpress
+3.- Instala y configura wordpress. [ver aquí](ejercicio3/wordpress.md)
 
 4.- Activar el módulo “wsgi” para permitir la ejecución de aplicaciones Python.
 
