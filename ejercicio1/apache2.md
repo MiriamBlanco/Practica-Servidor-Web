@@ -8,7 +8,7 @@ sudo apt install apache2
 
 #CAPTURA
 
-- asignamos la propiedad del directorio con la variable de entorno $USER, que hará referencia a su usuario de sistema actual:
+- Asignamos la propiedad del directorio con la variable de entorno $USER, que hará referencia a su usuario de sistema actual:
 
 ```bash
 sudo chown -R $USER:$USER /var/www/centro.intranet
@@ -65,7 +65,7 @@ sudo a2dissite 000-default
 sudo apache2ctl configtest
 ```
 
-- Creamos un archivo index.html en esa ubicación para poder probar que el host virtual funciona según lo previsto:
+- Creamos un archivo index.html en la siguiente ubicación para poder probar que el host virtual funciona según lo previsto:
 
 ```bash
 nano /var/www/centro.intranet/index.html
@@ -76,6 +76,8 @@ nano /var/www/centro.intranet/index.html
 
 <p>Esto es el index del dominio  <strong>centro.intranet</strong>.</p>
 ```
+
+- Repetimos lo mismo para el otro dominio:
 
 ```bash
 nano /var/www/departamentos.centro.intranet/index.html
