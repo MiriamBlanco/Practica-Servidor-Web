@@ -12,13 +12,15 @@ sudo cp -r /home/miriam/Desktop/wordpress-6.1.1-es_ES /var/www/centro.intranet/
 sudo chown -R www-data:www-data centro.intranet
 ```
 
-- Abrimos mysql y creamos una base de datos wordpress
+- Abrimos mysql:
 
 ```bash
 sudo mysql -u root -p
 ```
 
 ![image](/imagenes/6.png)
+
+- Creamos una base de datos wordpress:
 
 ```sql
 create database wordpress;
