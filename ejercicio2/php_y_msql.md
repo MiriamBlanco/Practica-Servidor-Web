@@ -4,7 +4,7 @@
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
-![image](../imagenes/4.png)
+![image](../imagenes/5.png)
 
 - para instalar mysql:
 
@@ -12,4 +12,4 @@ sudo apt install php libapache2-mod-php php-mysql
 sudo apt-get install mysql-server
 ```
 
-![image](../imagenes/5.png)
+![image](../imagenes/4.png)
