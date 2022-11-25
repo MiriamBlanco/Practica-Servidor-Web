@@ -90,5 +90,5 @@ nano /var/www/departamentos.centro.intranet/index.html
 ```
 
 - Comprobamos que podemos entrar en los dominios desde el navegador:
-#CAPTURA
-#CAPTURA
+![image](../imagenes/2.png)
+![image](../imagenes/3.png)
