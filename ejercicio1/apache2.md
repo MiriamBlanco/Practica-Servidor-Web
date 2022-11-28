@@ -18,7 +18,8 @@ sudo chown -R $USER:$USER /var/www/departamentos.centro.intranet
 
 ```bash
 sudo nano /etc/apache2/sites-available/centros.intranet.conf
-
+```
+```apache
 <VirtualHost *:80>
     ServerName centros.intranet
     ServerAlias www.centro.intranet
@@ -27,9 +28,11 @@ sudo nano /etc/apache2/sites-available/centros.intranet.conf
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost> 
-
+```
+```bash
 sudo nano /etc/apache2/sites-available/departamentos.centros.intranet.conf
-
+```
+```apache
 <VirtualHost *:80>
     ServerName departamentos.centro.intranet
     ServerAlias www.departamentos.centro.intranet
