@@ -8,9 +8,9 @@ Vamos a instalar un servidor web interno para un instituto. Se Pide:
 
 3.- Instala y configura wordpress. [ver aquí](ejercicio3/wordpress.md)
 
-4.- Activar el módulo “wsgi” para permitir la ejecución de aplicaciones Python. [ver aquí](ejercicio4/wordpress.md)
+4.- Activar el módulo “wsgi” para permitir la ejecución de aplicaciones Python. [ver aquí](ejercicio4/wsgi.md)
 
-5.- Crea y despliega una pequeña aplicación python para comprobar que funciona correctamente. [ver aquí](ejercicio5/wordpress.md)
+5.- Crea y despliega una pequeña aplicación python para comprobar que funciona correctamente. [ver aquí](ejercicio5/python.md)
 
 6.- Adicionalmente protegeremos el acceso a la aplicación python mediante autenticación
 
