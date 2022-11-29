@@ -1,4 +1,4 @@
-- Creamos el siguiente árbol de directorios dentro de /var/www/html/ para montar toda la aplicación:
+- Creamos el siguiente árbol de directorios dentro de `</var/www/html/>` para montar toda la aplicación:
 
 ```bash
 sudo mkdir departamentos.centro.intranet
