@@ -6,4 +6,4 @@
 sudo apt-get install libapache2-mod-wsgi
 ```
 
-![image](/imagenes/12.png)
+![image](/imagenes/13.png)
