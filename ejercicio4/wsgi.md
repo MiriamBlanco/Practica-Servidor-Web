@@ -7,3 +7,6 @@ sudo apt-get install libapache2-mod-wsgi
 ```
 
 ![image](/imagenes/13.png)
+
+
+[Volver a la página principal](../README.md)
