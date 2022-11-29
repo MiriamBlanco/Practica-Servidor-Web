@@ -1,4 +1,4 @@
-- Creamos el siguiente árbol de directorios dentro de `</var/www/html/>` para montar toda la aplicación:
+- Creamos el siguiente árbol de directorios dentro de `/var/www/html/` para montar toda la aplicación:
 
 ```bash
 sudo mkdir departamentos.centro.intranet
@@ -10,7 +10,7 @@ sudo mkdir public_html
 
 ![image](/imagenes/15.png)
 
-- Dentro del directorio mypythonapp creamos la app controller.py:
+- Dentro del directorio `mypythonapp` creamos la app `controller.py`:
 
 ```bash
 sudo nano controller.py
@@ -32,7 +32,7 @@ def application(environ, start_response):
 
 ![image](/imagenes/16.png)
 
-- Escribimos el siguiente contenido de VirtualHost dentro del archivo de configuración departamentos.centro.intranet.conf:
+- Escribimos el siguiente contenido de `VirtualHost` dentro del archivo de configuración `departamentos.centro.intranet.conf`:
 
 ```bash
 sudo nano /etc/apache2/sites-available/departamentos.centro.intranet.conf
@@ -64,7 +64,7 @@ sudo a2ensite departamentos.centro.intranet.conf
 
 ![image](/imagenes/18.png)
 
-- Recargamos apache
+- Recargamos apache:
 
 ```bash
 sudo service apache2 reload
