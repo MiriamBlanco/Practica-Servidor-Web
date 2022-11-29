@@ -53,3 +53,6 @@ grant all on wordpress.* to 'wordpressuser'@'localhost' identified by 'wordpress
 - Y ya tendríamos todo listo:
 
 ![image](/imagenes/12.png)
+
+
+[Volver a la página principal](../README.md)
