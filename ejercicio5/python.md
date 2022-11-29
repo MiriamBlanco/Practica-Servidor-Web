@@ -6,9 +6,9 @@ sudo mkdir mypythonapp
 sudo mkdir public_html
 ```
 
-![image](/imagenes/13.png)
-
 ![image](/imagenes/14.png)
+
+![image](/imagenes/15.png)
 
 - Dentro del directorio mypythonapp creamos la app controller.py:
 
@@ -30,7 +30,7 @@ def application(environ, start_response):
     return output
 ```
 
-![image](/imagenes/15.png)
+![image](/imagenes/16.png)
 
 - Escribimos el siguiente contenido de VirtualHost dentro del archivo de configuración departamentos.centro.intranet.conf:
 
@@ -54,7 +54,7 @@ sudo nano /etc/apache2/sites-available/departamentos.centro.intranet.conf
 </VirtualHost>
 ```
 
-![image](/imagenes/16.png)
+![image](/imagenes/17.png)
 
 - Habilitamos el sitio web:
 
@@ -62,7 +62,7 @@ sudo nano /etc/apache2/sites-available/departamentos.centro.intranet.conf
 sudo a2ensite departamentos.centro.intranet.conf
 ```
 
-![image](/imagenes/17.png)
+![image](/imagenes/18.png)
 
 - Recargamos apache
 
@@ -72,4 +72,4 @@ sudo service apache2 reload
 
 - Y por último introducimos en el navegador la siguiente URL: http://departamentos.centro.intranet
 
-![image](/imagenes/18.png)
+![image](/imagenes/19.png)
