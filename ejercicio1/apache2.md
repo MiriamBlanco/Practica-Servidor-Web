@@ -21,7 +21,7 @@ sudo nano /etc/apache2/sites-available/centros.intranet.conf
 ```
 ```apache
 <VirtualHost *:80>
-    ServerName centros.intranet
+    ServerName centro.intranet
     ServerAlias www.centro.intranet
     ServerAdmin webmaster@localhost
     DocumentRoot /var/www/centro.intranet
