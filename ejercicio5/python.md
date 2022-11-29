@@ -73,3 +73,6 @@ sudo service apache2 reload
 - Y por último introducimos en el navegador la siguiente URL: http://departamentos.centro.intranet
 
 ![image](/imagenes/19.png)
+
+
+[Volver a la página principal](../README.md)
