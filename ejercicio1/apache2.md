@@ -100,3 +100,5 @@ nano /var/www/departamentos.centro.intranet/index.html
 ![image](../imagenes/2.png)
 ------------------------------
 ![image](../imagenes/3.png)
+
+[Volver a la página principal](../redmi.md)
