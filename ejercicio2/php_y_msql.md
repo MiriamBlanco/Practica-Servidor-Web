@@ -13,3 +13,6 @@ sudo apt-get install mysql-server
 ```
 
 ![image](../imagenes/4.png)
+
+
+[Volver a la página principal](../README.md)
