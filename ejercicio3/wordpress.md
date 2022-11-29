@@ -1,6 +1,6 @@
 - Primero descargamos WordPress desde su página oficial.
 
-- Copiamos la carpeta dentro del dominio centro.intranet:
+- Copiamos la carpeta dentro del dominio `centro.intranet`:
 
 ```bash
 sudo cp -r /home/miriam/Desktop/wordpress-6.1.1-es_ES /var/www/centro.intranet/
