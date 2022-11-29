@@ -4,21 +4,22 @@
 sudo apt install apache2
 ```
 
-- Nos movemos a la carpeta /var/www/ y creamos centro.intranet y departamentos.centro.intranet
+- Nos movemos a la carpeta `/var/www/` y creamos `centro.intranet` y `departamentos.centro.intranet`:
 
 ![image](../imagenes/1.png)
 
-- Asignamos la propiedad del directorio con la variable de entorno $USER, que hará referencia a su usuario de sistema actual:
+- Asignamos la propiedad del directorio con la variable de entorno `$USER`, que hará referencia a su usuario de sistema actual:
 
 ```bash
 sudo chown -R $USER:$USER /var/www/centro.intranet
 sudo chown -R $USER:$USER /var/www/departamentos.centro.intranet
 ```
-- Configuramos el VirtualHost de los dominios para indicarle a apache que proporción usar como directorio raíz web:
+- Configuramos el `VirtualHost` de los dominios para indicarle a apache que proporción usar como directorio raíz web:
 
 ```bash
 sudo nano /etc/apache2/sites-available/centros.intranet.conf
 ```
+
 ```apache
 <VirtualHost *:80>
     ServerName centro.intranet
@@ -29,9 +30,11 @@ sudo nano /etc/apache2/sites-available/centros.intranet.conf
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost> 
 ```
+
 ```bash
 sudo nano /etc/apache2/sites-available/departamentos.centros.intranet.conf
 ```
+
 ```apache
 <VirtualHost *:80>
     ServerName departamentos.centro.intranet
@@ -68,7 +71,7 @@ sudo a2dissite 000-default
 sudo apache2ctl configtest
 ```
 
-- Creamos un archivo index.html en la siguiente ubicación para poder probar que el host virtual funciona según lo previsto:
+- Creamos un archivo `index.html` en la siguiente ubicación para poder probar que el host virtual funciona según lo previsto:
 
 ```bash
 nano /var/www/centro.intranet/index.html
