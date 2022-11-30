@@ -14,6 +14,6 @@ Vamos a instalar un servidor web interno para un instituto. Se Pide:
 
 6.- Adicionalmente protegeremos el acceso a la aplicación python mediante autenticación. [ver aquí](ejercicio6/autenticacion.md)
 
-7.- Instala y configura awstat.
+7.- Instala y configura awstat. [ver aquí](ejercicio7/awstat.md)
 
-8.- Instala un segundo servidor de tu elección (nginx, lighttpd) bajo el dominio “servidor2.centro.intranet”. Debes configurarlo para que sirva en el puerto 8080 y haz los cambios necesarios para ejecutar php. Instala phpmyadmin.
+8.- Instala un segundo servidor de tu elección (nginx, lighttpd) bajo el dominio “servidor2.centro.intranet”. Debes configurarlo para que sirva en el puerto 8080 y haz los cambios necesarios para ejecutar php. Instala phpmyadmin. [ver aquí](ejercicio8/nginx.md)
