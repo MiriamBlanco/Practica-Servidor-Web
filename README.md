@@ -12,7 +12,7 @@ Vamos a instalar un servidor web interno para un instituto. Se Pide:
 
 5.- Crea y despliega una pequeña aplicación python para comprobar que funciona correctamente. [ver aquí](ejercicio5/python.md)
 
-6.- Adicionalmente protegeremos el acceso a la aplicación python mediante autenticación
+6.- Adicionalmente protegeremos el acceso a la aplicación python mediante autenticación. [ver aquí](ejercicio6/autenticacion.md)
 
 7.- Instala y configura awstat.
 
