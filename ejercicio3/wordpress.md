@@ -1,3 +1,5 @@
+> WordPress es un sistema de gestión de contenidos (CMS) que permite crear y mantener un blog u otro tipo de web.
+
 - Primero descargamos WordPress desde su página oficial.
 
 - Copiamos la carpeta dentro del dominio `centro.intranet`:
