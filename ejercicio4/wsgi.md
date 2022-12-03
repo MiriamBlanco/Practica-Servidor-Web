@@ -1,4 +1,4 @@
-- WSGI es un protocolo que nos permite comunicar al servidor web (apache2) con la aplicación web (python).
+> WSGI es un protocolo que nos permite comunicar al servidor web (apache2) con la aplicación web (python).
 
 - Para habilitar `mod_wsgi` instalamos el siguiente paquete:
 
