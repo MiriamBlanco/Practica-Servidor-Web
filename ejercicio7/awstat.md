@@ -65,3 +65,5 @@ sudo chown -R www-data:www-data /var/www/html/departamentos.centro.intranet/cgi-
 http://localhost/cgi-bin/awstats.pl?config=departamentos.centro.intranet
 
 ![image](/imagenes/33.png)
+
+[Volver a la página principal](../README.md)
