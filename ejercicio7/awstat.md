@@ -1,4 +1,4 @@
-- AWStats es una herramienta de informes estadísticos de análisis web, ya sea para servidores de correo, ftp, streaming, web, etc. A raíz de los archivos de log del servidor, AWStats genera informes numéricos y gráficos de barras y tablas, muy sencillos y completos.
+`AWStats es una herramienta de informes estadísticos de análisis web, ya sea para servidores de correo, ftp, streaming, web, etc. A raíz de los archivos de log del servidor, AWStats genera informes numéricos y gráficos de barras y tablas, muy sencillos y completos.`
 
 - Para instalar el servicio `AWStats`, introducimos el siguiente comando:
 
