@@ -49,3 +49,5 @@ sudo systemctl restart apache2
 ![image](/imagenes/24.png)
 
 ![image](/imagenes/25.png)
+
+[Volver a la página principal](../README.md)
